@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41000CE72DC92E1D007D0BC2 /* CodeRedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000CE62DC92E1D007D0BC2 /* CodeRedApp.swift */; };
+		41000CE92DC92E1D007D0BC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000CE82DC92E1D007D0BC2 /* ContentView.swift */; };
+		41000CEB2DC92E21007D0BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41000CEA2DC92E21007D0BC2 /* Assets.xcassets */; };
+		41000CEE2DC92E21007D0BC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41000CED2DC92E21007D0BC2 /* Preview Assets.xcassets */; };
+		41000CF02DC92E21007D0BC2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000CEF2DC92E21007D0BC2 /* Persistence.swift */; };
+		41000CF32DC92E21007D0BC2 /* CodeRed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41000CF12DC92E21007D0BC2 /* CodeRed.xcdatamodeld */; };
+		41000CFD2DC92E21007D0BC2 /* CodeRedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000CFC2DC92E21007D0BC2 /* CodeRedTests.swift */; };
+		41000D072DC92E21007D0BC2 /* CodeRedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000D062DC92E21007D0BC2 /* CodeRedUITests.swift */; };
+		41000D092DC92E21007D0BC2 /* CodeRedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000D082DC92E21007D0BC2 /* CodeRedUITestsLaunchTests.swift */; };
+		41B39A842DCE711600957CD7 /* DashBoardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B39A832DCE711600957CD7 /* DashBoardScreen.swift */; };
+		41C468D02DCE47FD001B0867 /* LoginScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468CF2DCE47FD001B0867 /* LoginScreenModel.swift */; };
+		41C468D22DCE486A001B0867 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468D12DCE486A001B0867 /* WebServices.swift */; };
+		41C468D42DCE49C5001B0867 /* LoginScreenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468D32DCE49C5001B0867 /* LoginScreenRepository.swift */; };
+		41C468D62DCE4A2C001B0867 /* LoginscreenRepoImpliment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468D52DCE4A2C001B0867 /* LoginscreenRepoImpliment.swift */; };
+		41C468D82DCE4AF5001B0867 /* LoginScreenUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468D72DCE4AF5001B0867 /* LoginScreenUseCases.swift */; };
+		41C468DA2DCE4BCF001B0867 /* LoginScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468D92DCE4BCF001B0867 /* LoginScreenViewModel.swift */; };
+		41C468DC2DCE522F001B0867 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C468DB2DCE522F001B0867 /* LoginScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41000CF92DC92E21007D0BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41000CDB2DC92E1D007D0BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41000CE22DC92E1D007D0BC2;
+			remoteInfo = CodeRed;
+		};
+		41000D032DC92E21007D0BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41000CDB2DC92E1D007D0BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41000CE22DC92E1D007D0BC2;
+			remoteInfo = CodeRed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41000CE32DC92E1D007D0BC2 /* CodeRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41000CE62DC92E1D007D0BC2 /* CodeRedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRedApp.swift; sourceTree = "<group>"; };
+		41000CE82DC92E1D007D0BC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41000CEA2DC92E21007D0BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41000CED2DC92E21007D0BC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41000CEF2DC92E21007D0BC2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		41000CF22DC92E21007D0BC2 /* CodeRed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeRed.xcdatamodel; sourceTree = "<group>"; };
+		41000CF82DC92E21007D0BC2 /* CodeRedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeRedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41000CFC2DC92E21007D0BC2 /* CodeRedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRedTests.swift; sourceTree = "<group>"; };
+		41000D022DC92E21007D0BC2 /* CodeRedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeRedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41000D062DC92E21007D0BC2 /* CodeRedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRedUITests.swift; sourceTree = "<group>"; };
+		41000D082DC92E21007D0BC2 /* CodeRedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41B39A832DCE711600957CD7 /* DashBoardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardScreen.swift; sourceTree = "<group>"; };
+		41C468CF2DCE47FD001B0867 /* LoginScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenModel.swift; sourceTree = "<group>"; };
+		41C468D12DCE486A001B0867 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		41C468D32DCE49C5001B0867 /* LoginScreenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenRepository.swift; sourceTree = "<group>"; };
+		41C468D52DCE4A2C001B0867 /* LoginscreenRepoImpliment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginscreenRepoImpliment.swift; sourceTree = "<group>"; };
+		41C468D72DCE4AF5001B0867 /* LoginScreenUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUseCases.swift; sourceTree = "<group>"; };
+		41C468D92DCE4BCF001B0867 /* LoginScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewModel.swift; sourceTree = "<group>"; };
+		41C468DB2DCE522F001B0867 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41000CE02DC92E1D007D0BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41000CF52DC92E21007D0BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41000CFF2DC92E21007D0BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41000CDA2DC92E1D007D0BC2 = {
+			isa = PBXGroup;
+			children = (
+				41000CE52DC92E1D007D0BC2 /* CodeRed */,
+				41000CFB2DC92E21007D0BC2 /* CodeRedTests */,
+				41000D052DC92E21007D0BC2 /* CodeRedUITests */,
+				41000CE42DC92E1D007D0BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41000CE42DC92E1D007D0BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41000CE32DC92E1D007D0BC2 /* CodeRed.app */,
+				41000CF82DC92E21007D0BC2 /* CodeRedTests.xctest */,
+				41000D022DC92E21007D0BC2 /* CodeRedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41000CE52DC92E1D007D0BC2 /* CodeRed */ = {
+			isa = PBXGroup;
+			children = (
+				41000CE62DC92E1D007D0BC2 /* CodeRedApp.swift */,
+				41000CE82DC92E1D007D0BC2 /* ContentView.swift */,
+				418494702DC9EAD400C5D8D8 /* CleanCode */,
+				41000CEA2DC92E21007D0BC2 /* Assets.xcassets */,
+				41000CEF2DC92E21007D0BC2 /* Persistence.swift */,
+				41000CF12DC92E21007D0BC2 /* CodeRed.xcdatamodeld */,
+				41000CEC2DC92E21007D0BC2 /* Preview Content */,
+			);
+			path = CodeRed;
+			sourceTree = "<group>";
+		};
+		41000CEC2DC92E21007D0BC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41000CED2DC92E21007D0BC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41000CFB2DC92E21007D0BC2 /* CodeRedTests */ = {
+			isa = PBXGroup;
+			children = (
+				41000CFC2DC92E21007D0BC2 /* CodeRedTests.swift */,
+			);
+			path = CodeRedTests;
+			sourceTree = "<group>";
+		};
+		41000D052DC92E21007D0BC2 /* CodeRedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41000D062DC92E21007D0BC2 /* CodeRedUITests.swift */,
+				41000D082DC92E21007D0BC2 /* CodeRedUITestsLaunchTests.swift */,
+			);
+			path = CodeRedUITests;
+			sourceTree = "<group>";
+		};
+		418494702DC9EAD400C5D8D8 /* CleanCode */ = {
+			isa = PBXGroup;
+			children = (
+				41C468C72DCE476C001B0867 /* Data */,
+				41C468C62DCE4765001B0867 /* Domain */,
+				41C468C52DCE475A001B0867 /* Presenters */,
+			);
+			path = CleanCode;
+			sourceTree = "<group>";
+		};
+		41C468C52DCE475A001B0867 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				41C468C82DCE4776001B0867 /* LoginScreen */,
+				41B39A832DCE711600957CD7 /* DashBoardScreen.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		41C468C62DCE4765001B0867 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				41C468CA2DCE4796001B0867 /* UseCases */,
+				41C468C92DCE4789001B0867 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		41C468C72DCE476C001B0867 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				41C468CD2DCE47C9001B0867 /* Services */,
+				41C468CC2DCE47BD001B0867 /* RepositoriesImp */,
+				41C468CB2DCE479F001B0867 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		41C468C82DCE4776001B0867 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				41C468D92DCE4BCF001B0867 /* LoginScreenViewModel.swift */,
+				41C468DB2DCE522F001B0867 /* LoginScreenView.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		41C468C92DCE4789001B0867 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41C468CF2DCE47FD001B0867 /* LoginScreenModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41C468CA2DCE4796001B0867 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				41C468D72DCE4AF5001B0867 /* LoginScreenUseCases.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		41C468CB2DCE479F001B0867 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				41C468D32DCE49C5001B0867 /* LoginScreenRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		41C468CC2DCE47BD001B0867 /* RepositoriesImp */ = {
+			isa = PBXGroup;
+			children = (
+				41C468D52DCE4A2C001B0867 /* LoginscreenRepoImpliment.swift */,
+			);
+			path = RepositoriesImp;
+			sourceTree = "<group>";
+		};
+		41C468CD2DCE47C9001B0867 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				41C468D12DCE486A001B0867 /* WebServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41000CE22DC92E1D007D0BC2 /* CodeRed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41000D0C2DC92E21007D0BC2 /* Build configuration list for PBXNativeTarget "CodeRed" */;
+			buildPhases = (
+				41000CDF2DC92E1D007D0BC2 /* Sources */,
+				41000CE02DC92E1D007D0BC2 /* Frameworks */,
+				41000CE12DC92E1D007D0BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeRed;
+			productName = CodeRed;
+			productReference = 41000CE32DC92E1D007D0BC2 /* CodeRed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41000CF72DC92E21007D0BC2 /* CodeRedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41000D0F2DC92E21007D0BC2 /* Build configuration list for PBXNativeTarget "CodeRedTests" */;
+			buildPhases = (
+				41000CF42DC92E21007D0BC2 /* Sources */,
+				41000CF52DC92E21007D0BC2 /* Frameworks */,
+				41000CF62DC92E21007D0BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41000CFA2DC92E21007D0BC2 /* PBXTargetDependency */,
+			);
+			name = CodeRedTests;
+			productName = CodeRedTests;
+			productReference = 41000CF82DC92E21007D0BC2 /* CodeRedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41000D012DC92E21007D0BC2 /* CodeRedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41000D122DC92E21007D0BC2 /* Build configuration list for PBXNativeTarget "CodeRedUITests" */;
+			buildPhases = (
+				41000CFE2DC92E21007D0BC2 /* Sources */,
+				41000CFF2DC92E21007D0BC2 /* Frameworks */,
+				41000D002DC92E21007D0BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41000D042DC92E21007D0BC2 /* PBXTargetDependency */,
+			);
+			name = CodeRedUITests;
+			productName = CodeRedUITests;
+			productReference = 41000D022DC92E21007D0BC2 /* CodeRedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41000CDB2DC92E1D007D0BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					41000CE22DC92E1D007D0BC2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					41000CF72DC92E21007D0BC2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41000CE22DC92E1D007D0BC2;
+					};
+					41000D012DC92E21007D0BC2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41000CE22DC92E1D007D0BC2;
+					};
+				};
+			};
+			buildConfigurationList = 41000CDE2DC92E1D007D0BC2 /* Build configuration list for PBXProject "CodeRed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41000CDA2DC92E1D007D0BC2;
+			productRefGroup = 41000CE42DC92E1D007D0BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41000CE22DC92E1D007D0BC2 /* CodeRed */,
+				41000CF72DC92E21007D0BC2 /* CodeRedTests */,
+				41000D012DC92E21007D0BC2 /* CodeRedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41000CE12DC92E1D007D0BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41000CEE2DC92E21007D0BC2 /* Preview Assets.xcassets in Resources */,
+				41000CEB2DC92E21007D0BC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41000CF62DC92E21007D0BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41000D002DC92E21007D0BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41000CDF2DC92E1D007D0BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41000CF02DC92E21007D0BC2 /* Persistence.swift in Sources */,
+				41C468D82DCE4AF5001B0867 /* LoginScreenUseCases.swift in Sources */,
+				41C468D42DCE49C5001B0867 /* LoginScreenRepository.swift in Sources */,
+				41000CE92DC92E1D007D0BC2 /* ContentView.swift in Sources */,
+				41B39A842DCE711600957CD7 /* DashBoardScreen.swift in Sources */,
+				41C468D22DCE486A001B0867 /* WebServices.swift in Sources */,
+				41C468D02DCE47FD001B0867 /* LoginScreenModel.swift in Sources */,
+				41000CF32DC92E21007D0BC2 /* CodeRed.xcdatamodeld in Sources */,
+				41000CE72DC92E1D007D0BC2 /* CodeRedApp.swift in Sources */,
+				41C468DA2DCE4BCF001B0867 /* LoginScreenViewModel.swift in Sources */,
+				41C468DC2DCE522F001B0867 /* LoginScreenView.swift in Sources */,
+				41C468D62DCE4A2C001B0867 /* LoginscreenRepoImpliment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41000CF42DC92E21007D0BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41000CFD2DC92E21007D0BC2 /* CodeRedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41000CFE2DC92E21007D0BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41000D072DC92E21007D0BC2 /* CodeRedUITests.swift in Sources */,
+				41000D092DC92E21007D0BC2 /* CodeRedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41000CFA2DC92E21007D0BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41000CE22DC92E1D007D0BC2 /* CodeRed */;
+			targetProxy = 41000CF92DC92E21007D0BC2 /* PBXContainerItemProxy */;
+		};
+		41000D042DC92E21007D0BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41000CE22DC92E1D007D0BC2 /* CodeRed */;
+			targetProxy = 41000D032DC92E21007D0BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41000D0A2DC92E21007D0BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41000D0B2DC92E21007D0BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41000D0D2DC92E21007D0BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeRed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HEMANT.Demo1.CodeRed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41000D0E2DC92E21007D0BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeRed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HEMANT.Demo1.CodeRed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41000D102DC92E21007D0BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HEMANT.Demo1.CodeRedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeRed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeRed";
+			};
+			name = Debug;
+		};
+		41000D112DC92E21007D0BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HEMANT.Demo1.CodeRedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeRed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeRed";
+			};
+			name = Release;
+		};
+		41000D132DC92E21007D0BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HEMANT.Demo1.CodeRedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeRed;
+			};
+			name = Debug;
+		};
+		41000D142DC92E21007D0BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HEMANT.Demo1.CodeRedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeRed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41000CDE2DC92E1D007D0BC2 /* Build configuration list for PBXProject "CodeRed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41000D0A2DC92E21007D0BC2 /* Debug */,
+				41000D0B2DC92E21007D0BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41000D0C2DC92E21007D0BC2 /* Build configuration list for PBXNativeTarget "CodeRed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41000D0D2DC92E21007D0BC2 /* Debug */,
+				41000D0E2DC92E21007D0BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41000D0F2DC92E21007D0BC2 /* Build configuration list for PBXNativeTarget "CodeRedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41000D102DC92E21007D0BC2 /* Debug */,
+				41000D112DC92E21007D0BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41000D122DC92E21007D0BC2 /* Build configuration list for PBXNativeTarget "CodeRedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41000D132DC92E21007D0BC2 /* Debug */,
+				41000D142DC92E21007D0BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41000CF12DC92E21007D0BC2 /* CodeRed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41000CF22DC92E21007D0BC2 /* CodeRed.xcdatamodel */,
+			);
+			currentVersion = 41000CF22DC92E21007D0BC2 /* CodeRed.xcdatamodel */;
+			path = CodeRed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41000CDB2DC92E1D007D0BC2 /* Project object */;
+}
